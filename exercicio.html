@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>exercicio 2</h1>
+    <form action="exercicio2.php" method="get">
+        <fieldset>
+            <legend>informacoes</legend>
+            <label for="nm">nome</label>
+             <input type="text" name="nm" id="nm">
+             <br>
+             <label for="recado">deixe o seu recado</label>
+             <br>
+             <textarea name="recado" id="recado" cols="20" rows="10"></textarea>
+             <br>
+             <label for="op">ecolha opcoes</label>
+             <br>
+             <input type="checkbox" name="cine1" id="cine" value="cinema">
+             <label for="cine">cinema</label>
+            <input type="checkbox" name="cine2" id="esporte" value="esporte">
+             <label for="esporte">esporte</label>
+             <input type="checkbox" name="cine3" id="jogos" value="jogo">
+             <label for="jogos">jogos</label>
+              <br>
+              <label>escolha a opcao</label>
+              <input type="radio" name="genero" id="masculino" value="masc">
+              <label for="masculino">masculino</label>
+              <input type="radio" name="genero" id="feminino" value="fem">
+              <label for="feminino">femenino</label>
+              <input type="radio" name="genero" id="outos" value="outros">
+              <label for="outros">nao identificado</label>
+               <br>
+               <label for="">estado</label>
+               <select name="uf" id="uf">
+               <option value="SP">SP</option>
+               <option value="RJ">RJ</option>
+               </select>
+               <br>
+               <button type="submit">Enviar</button>
+               <button type="reset">Apagar</button>
+        </fieldset>
+    </form>
+
+</body>
+</html>
