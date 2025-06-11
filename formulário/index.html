@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+        <div class="container">
+            <h1>cadastro</h1>
+                <form action="cadastro.php" method="post">
+                    <label for="nome">nome</label>
+                    <input type="text" name="nome" id="nome" >
+                    <label for="email">email</label>
+                    <input type="text" name="email" id="email" >
+                    <label for="idade">idade</label>
+                    <input type="number" name="idade" id="idade">
+                    <label for="curso">curso:</label>
+                    <select name="curso" id="curso">
+                        <option value="js">javascript</option>
+                        <option value="php">PHP</option>
+                        <option value="py">pyton</option>
+                    </select>
+                    <button type="submit">cadastrar</button>
+
+                </form>
+        </div>
+</body>
+</html>
